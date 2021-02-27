@@ -17,11 +17,10 @@ Route::get('/', function () {
 
 Route::group(['prefix' => 'admin'], function(){
     Route::get('news/create', 'Admin\NewsController@add');
+    //Laravel 09 課題4
+    Route::get('profile/create', 'Admin\ProfileController@add');
+    Route::get('profile/edit', 'Admin\ProfileController@edit');
 });
 
 //Laravel 09 課題３
 Route::get('XXX', 'AAAController@bbb');
-
-//Laravel 09 課題4
-Route::get('admin/profile/create', 'Admin\ProfileController@add');
-Route::get('admin/profile/edit', 'Admin\ProfileController@edit');
