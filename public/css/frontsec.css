@@ -1,0 +1,21 @@
+body {
+  color: #000;
+}
+
+.header .logo {
+  width: 120px;
+  height: 82px;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+label {
+  font-size: 125%;
+}
+
+.posts {
+  font-size: 100%;
+}
+
