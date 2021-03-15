@@ -7,6 +7,10 @@ body {
   height: 82px;
 }
 
+h2 {
+  color: #3300ff;
+}
+
 .headline .caption {
   position: relative;
   width: 350px;

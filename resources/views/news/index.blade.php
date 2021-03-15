@@ -2,6 +2,9 @@
 
 @section('content')
     <div class="container">
+         <div class="text-center">
+            <h2>最近のニュース一覧</h2>
+        </div>
         <hr color="#c0c0c0">
         @if (!is_null($headline))
             <div class="row">
